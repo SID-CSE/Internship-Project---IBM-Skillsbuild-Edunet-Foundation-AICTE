@@ -170,15 +170,14 @@ with tab3:
     try:
         col1, col2 = st.columns(2)
         with col1:
-            st.image("r2_scores.png", caption="R² Score", use_column_width=True)
+            st.image("r2_scores.png", caption="R² Score", use_container_width=True)
         with col2:
-            st.image("rmse_scores.png", caption="RMSE Score", use_column_width=True)
+            st.image("rmse_scores.png", caption="RMSE Score", use_container_width=True)
 
-        st.image("residuals_plot.png", caption="Residuals Plot", use_column_width=True)
-        st.image("feature_importance.png", caption="Feature Importances", use_column_width=True)
-        st.image("correlation_heatmap.png", caption="Correlation Heatmap", use_column_width=True)
+        st.image("residuals_plot.png", caption="Residuals Plot", use_container_width=True)
+        st.image("feature_importance.png", caption="Feature Importances", use_container_width=True)
+        st.image("correlation_heatmap.png", caption="Correlation Heatmap", use_container_width=True)
     except:
         st.warning("📉 Some evaluation images are missing. Run `train.py` to generate them.")
-
 # ---------- Footer ----------
 st.markdown("<div class='footer'>✨ Crafted with 💻 by <b>Siddharth Kumar</b> | 📧 siddharthkumaryo@gmail.com | 🌐 <a href='https://www.linkedin.com/in/siddharthkumaryo' style='color:#82b1ff;'>LinkedIn</a></div>", unsafe_allow_html=True)
