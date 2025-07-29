@@ -67,7 +67,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------- Header ----------
-st.markdown("<div class='main-title'>💼 Employee Salary Prediction System</div>", unsafe_allow_html=True)
+st.markdown("<div class='main-title'>💼 SmartPay - Employee Salary Prediction System</div>", unsafe_allow_html=True)
 st.markdown("<div class='subtitle'>AI/ML Regression Model to Predict Accurate Salaries Based on Employee Profile</div>", unsafe_allow_html=True)
 st.info("Developed under **AICTE-IBM SkillsBuild Virtual Internship** by **Edunet Foundation**, Domain: AI/ML", icon="🎓")
 st.markdown("🔗 [LinkedIn](https://www.linkedin.com/in/siddharthkumaryo)  |  📧 siddharthkumaryo@gmail.com")
